@@ -24,3 +24,20 @@ Points to remember
   • Compatibility: Ensure compatibility with the latest versions of Python, TensorFlow, and Flask.
   • Data: Use publicly available data for training and testing.
   • Clear Folder Structure: Organise files into clear directories, such as “static” for CSS and JavaScript and “templates” for HTML.
+
+5. Files Path(important)
+  /WebApplication
+    /static
+        /css
+            1 (1).jpg
+            1 (2).jpg
+            style.css
+        /js
+            script.js
+    /templates
+        index.html
+        page2.html
+        resultforNormal.html
+        resultforPneumonia.html
+    app.py
+    Pneumonia_Model.h5
