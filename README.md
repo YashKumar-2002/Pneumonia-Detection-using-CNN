@@ -1,6 +1,6 @@
 # Pneumonia-Detection-using-CNN
 Points to remember
-1. The model (Pneumonia_Model.h5) is trained on the data set provided on Kaggle (link: https://www.kaggle.com/datasets/paultimothymooney/chest-x-ray-pneumonia).
+1. The model (Pneumonia_Model.h5) is trained on the data set provided on Kaggle (link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
   Note : Download the data set and use the images provided in it for better prediction.
 
 2. Hardware Specification:
