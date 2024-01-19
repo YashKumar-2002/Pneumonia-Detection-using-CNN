@@ -1,0 +1,83 @@
+body {
+  background-image: url('/static/css/1 (1).jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3498db;
+  color: #000000;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px; /* Increased padding for input elements */
+  margin-bottom: 16px;
+  border: 1px solid #3498db; /* Border color */
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2980b9; /* Border color on focus */
+}
+
+button {
+  background-color: #2ecc71; /* Updated button color */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #27ae60; /* Darker color on hover */
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+#gender{
+  height:40px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border:1px solid #2980b9;
+}
+
+#check{
+  margin-bottom: 10px;
+}
+
+#out_imgs{
+  border:1px solid #2980b9;
+  border-radius: 4px;
+  height: 200px;
+  margin-bottom: 10px;
+}
