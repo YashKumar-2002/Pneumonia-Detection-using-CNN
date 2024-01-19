@@ -15,8 +15,9 @@ Points to remember
   • Keras: Version compatible with TensorFlow 2.x
   • Flask: Latest version
   • NumPy: Latest version
+  • VS Code: Latest version
 
-4. Constraints
+5. Constraints
   • GUI: The GUI is only in English.
   • Model Loading: Ensure that the model file (chest-xray.h5) is properly validated and protected. Consider using a more secure method for model storage and loading.
   • User Experience: Provide informative messages to users for predictions.
@@ -25,7 +26,7 @@ Points to remember
   • Data: Use publicly available data for training and testing.
   • Clear Folder Structure: Organise files into clear directories, such as “static” for CSS and JavaScript and “templates” for HTML.
 
-5. Files Path(important)
+6. Files Path(important)
   /WebApplication
     /static
         /css
@@ -41,3 +42,8 @@ Points to remember
         resultforPneumonia.html
     app.py
     Pneumonia_Model.h5
+
+7. To execute the code, compile app.py by following the steps:
+    Step 1: Open terminal in VS Code
+    Step 2: Write python app.py
+    Step 3: Click on the link that you will get during the compilation of the app.py
